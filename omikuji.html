@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="omikuji.css">
+  <title>おみくじ</title>
+</head>
+<body>
+  <h1>javascriptを用いた簡単なおみくじです</h1>
+  <h3>名前を入力すると、おみくじの結果を見ることができます<br>
+      また、おみくじの結果は日替わりで変わります。<br>
+      ちなみに、大吉・吉・中吉・小吉・末吉・凶・大凶の順番です。
+  </h3>
+
+  <p>占いたい名前を入力してください</p>
+  <input type="text" id="user-name" size="40" maxlength="20">
+  <button id="omikuji">占う</button>
+  <div id = "result-area"></div>
+  <div id = "tweet-area"></div>
+  <script src="omikuji.js"></script>
+</body>
+</html>
